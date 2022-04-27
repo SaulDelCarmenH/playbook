@@ -1,17 +1,7 @@
-// logger.js
+// node main.js
 
-// Esta es una función que se guardara en este módulo como info
-exports.info = (message) => {
-  console.log(`info: ${message}`)
-}
+const logger = require('./logger')
 
-// Esta es una función que se guardara en este módulo como verbose
-exports.verbose = (message) => {
-  console.log(`verbose: ${message}`)
-}
+logger.info('This is an informational message')
+logger.verbose('This is a verbose message')
 
-/*
-  const logger = require('./logger')
-  logger.info('This is an informational message')
-  logger.verbose('This is a verbose message')
- * */
