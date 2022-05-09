@@ -1,5 +1,5 @@
 const Pokemon = require('./pokemon')
-
+/*import Pokemon from './pokemon'*/
 const pikachu = new Pokemon("pikachu")
 const bulbasaur = new Pokemon("bulbasaur")
 const squirtle = new Pokemon("squirtle")
