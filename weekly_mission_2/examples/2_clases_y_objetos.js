@@ -175,7 +175,7 @@ console.log(carloLaunchXDev.getName) // getter de la clase padre rehusada en la 
 // Ejemplo 10: Overrinding methods
 
 class Explorer{
-  constructor(name, username, mission){;
+  constructor(name, username, mission){
    this.name = name
    this.username = username
    this.mission = mission
